@@ -10,25 +10,25 @@ projeto-final-eng-software/             # Pasta do projeto
 │   ├── background/                     # Imagens de fundo
 │   │   └── background-sign.png         # Imagem de fundo das telas de autenticação
 │   ├── figma-screens/                  # Telas desenvolvidas no Figma
-│   │   └── home/                       # Telas do Figma - Home Screen
-|   |   |   └── home.png                # Tela - Home Screen
-|   |   |   └── admin.png               # Tela - Admin Screen
+│   │   ├── home/                       # Telas do Figma - Home Screen
+│   │   │   ├── home.png                # Tela - Home Screen
+│   │   │   └── admin.png               # Tela - Admin Screen
 │   │   └── sign/                       # Telas do Figma - Autenticação
-|   |       └── in.png                  # Tela - Login Screen
-|   |       └── up.png                  # Tela - Cadastro Screen
+│   │       ├── in.png                  # Tela - Login Screen
+│   │       └── up.png                  # Tela - Cadastro Screen
 │   └── icons/                          # Ícones do projeto
 │       ├── eye.svg                     # Ícone para mostrar/ocultar senha
 │       └── logo-site.png               # Logo ICUFBA
 ├── screens/                            # Pasta de telas do projeto
 │   ├── home/                           # Tela principal
-│   |    └── home.html                  # Página inicial após autenticação
-│   |    └── styles.html                # Estilos da página inicial após autenticação
+│   │    ├── home.html                  # Página inicial após autenticação
+│   │    └── styles.html                # Estilos da página inicial após autenticação
 │   └── sign/                           # Telas de autenticação
 │       ├── in.html                     # Login
-│       └── script.js                   # Lógica de autenticação e validação
+│       ├── script.js                   # Lógica de autenticação e validação
 │       ├── styles.css                  # Estilos das duas telas
-│       ├── up.html                     # Cadastro
-├── Readme.md                           # Você está aqui!
+│       └── up.html                     # Cadastro
+└── Readme.md                           # Você está aqui!
 ```
 
 ## Descrição dos Arquivos
